@@ -92,7 +92,7 @@ function RockPaperScissor() {
 
   return (
     <div className="main-container w-full h-lvh flex flex-col justify-center items-center">
-      <h1 className="text-3xl text-white font-bold flex gap-2 items-center">
+      <h1 className="text-2xl md:text-3xl text-white font-bold flex gap-2 items-center">
         <FaRegHandRock className="text-white" />
         Rock <FaRegHandPaper className="text-white" />
         Paper <FaRegHandScissors className="text-white" />
