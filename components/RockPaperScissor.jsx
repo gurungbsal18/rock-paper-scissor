@@ -38,7 +38,7 @@ function RockPaperScissor() {
       setResult(
         <div className="flex flex-col justify-center items-center gap-3">
           <Image src="/gif/draw.gif" alt="draw" height={150} width={150} />
-          <div className="flex text-4xl font-bold gap-3 items-center">
+          <div className="flex text-4xl font-bold gap-3 items-center text-black">
             <FaRegHandshake />
             Draw
           </div>
@@ -51,7 +51,7 @@ function RockPaperScissor() {
     ) {
       setResult(
         <div className="flex flex-col justify-center items-center gap-2">
-          <div className="flex text-4xl font-bold gap-3">
+          <div className="flex text-4xl font-bold gap-3 text-black">
             You Win <FaSmileWink className="text-yellow-600" />
           </div>
           <Image src="/gif/KO.gif" alt="KO" height={150} width={150} />
@@ -63,7 +63,7 @@ function RockPaperScissor() {
     } else {
       setResult(
         <div className="flex flex-col justify-center items-center gap-2">
-          <div className="flex text-4xl font-bold gap-3">
+          <div className="flex text-4xl font-bold gap-3 text-black">
             You Loose <FaFaceSadTear className="text-yellow-600" />
           </div>
           <Image src="/gif/loose.gif" alt="loose" height={150} width={150} />
@@ -137,7 +137,7 @@ function RockPaperScissor() {
           Computer choose: <span className="font-bold">{computerChoice}</span>
         </p>
       </div>
-      <p className="py-5 px-16 mt-2 bg-gray-200 rounded-md shadow-2xl">
+      <p className="py-5 px-16 mt-2 bg-gray-200 rounded-md shadow-2xl text-black">
         {result}
       </p>
     </div>
