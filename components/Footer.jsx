@@ -6,11 +6,13 @@ function Footer() {
   const currentYear = currentDate.getFullYear();
   return (
     <div>
-      <p className="text-white text-sm text-center flex justify-center items-center gap-2 py-4">
-        <FaHeart className="text-red-600" /> Build By Bishal Gurung
-        <br />
-        &copy; {currentYear}
-      </p>
+      <div className="flex flex-col justify-center items-center text-white py-4">
+        <div className="flex items-center gap-2 justify-center">
+          <FaHeart className="text-red-600" />
+          <p>Build By Bishal Gurung</p>
+        </div>
+        <p>&copy; {currentYear}</p>
+      </div>
     </div>
   );
 }
