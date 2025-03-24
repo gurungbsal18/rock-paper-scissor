@@ -134,6 +134,9 @@ body {
   }
 }
 
-.main-container {
+.main {
   background-color: #242424;
+}
+.main-container {
+  height: calc(100vh - 54px);
 }
